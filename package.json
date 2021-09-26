@@ -1,0 +1,26 @@
+{
+  "name": "oauth2-google-passport-nodejs",
+  "version": "1.0.0",
+  "description": "A Simple Google OAuth2 Using Passport in Node JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "oauth2",
+    "passport",
+    "nodejs",
+    "google"
+  ],
+  "author": "Fakta Arief",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.13",
+    "passport": "^0.5.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
